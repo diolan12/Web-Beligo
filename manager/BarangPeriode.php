@@ -51,7 +51,7 @@
 							        </thead>
 							        <tbody>
 							        <?php 
-							        if (count(@$dataB['data']) > 0) {
+							        if (@$dataB != null) {
 							            $no = 1;
 							            foreach(@$dataB['data'] as $ds){ ?>
 										<tr>
